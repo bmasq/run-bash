@@ -29,5 +29,4 @@ for line in lines:
     # if output does not have new-lines, remove 'sep' parameter
     if run.stderr:
         print(f"ERROR: {run.stderr}", sep="")
-    else:
-        print(run.stdout, sep="")
+    print(run.stdout, sep="")
